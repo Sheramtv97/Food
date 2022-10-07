@@ -1,0 +1,48 @@
+@import "reset";
+
+#header{
+  background: yellow;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  .header--general{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title{
+      img{
+        width: 140px;
+        height: 50px;
+      }
+
+    }
+
+    &__block{
+      a{
+        color: #005a80;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 30px;
+      }
+    }
+
+    &__btn{
+      button{
+        @include ani;
+        &:hover{
+          color: black;
+          background: #005a80;
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+
+}
+
+#page{
+background: url("../img/f60abe640cd7.jpg") no-repeat center /cover ;
+  min-height: 100vh;
+
+}

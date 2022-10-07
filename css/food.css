@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Paytone+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto 0;
+}
+
+body {
+  font-family: Abyssinica SIL, sans-serif;
+}
+
+#header {
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+#header .header--general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--general__title img {
+  width: 150px;
+  height: 80px;
+}
+#header .header--general__block a {
+  color: #005a80;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 30px;
+}
+#header .header--general__btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius: 10px;
+  padding: 15px 30px;
+  color: black;
+  background: aqua;
+}
+#header .header--general__btn button:hover {
+  color: black;
+  background: #005a80;
+  transform: scale(1.2);
+}
+
+#food {
+  background: url("../img/5ad16009d2bf997bbe1fbe6940066893.gif") no-repeat center/cover;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=food.css.map */
